@@ -43,7 +43,7 @@ const Header = () => {
           className="hidden md:block w-full max-w-2xl"
         >
           <SearchInput
-            placeholder="Search products..."
+            placeholder="Search for Products, Brands and More..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
